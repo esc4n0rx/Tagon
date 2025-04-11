@@ -159,9 +159,9 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ## 📮 Contato
 
-Seu Nome - [@seu_twitter](https://twitter.com/seu_twitter) - email@example.com
+Seu Nome - [@seu_twitter](https://twitter.com/seu_twitter) - contato.paulooliver9@gmail.com
 
-Link do Projeto: [https://github.com/seu-usuario/tagon](https://github.com/seu-usuario/tagon)
+Link do Projeto: [https://github.com/esc4n0rx/tagon](https://github.com/esc4n0rx/tagon)
 
 ---
 

@@ -17,9 +17,27 @@ Tagon é um framework web reativo 100% em Python, inspirado em React, mas utiliz
 
 ## 🚀 Instalação
 
+### Via pip (Recomendado)
+
+```bash
+# Instale o pacote
+pip install tagon
+
+# Crie um novo projeto
+tagon create meu-projeto
+
+# Entre no diretório do projeto
+cd meu-projeto
+
+# Execute a aplicação
+tagon run
+```
+
+### Manualmente
+
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/tagon.git
+git clone https://github.com/esc4n0rx/tagon.git
 cd tagon
 
 # Instale as dependências
@@ -36,10 +54,28 @@ Acesse `http://localhost:5000` para ver a aplicação em funcionamento.
 - Python 3.7+
 - Flask
 
+## 🛠️ Comandos do CLI
+
+Tagon inclui uma ferramenta de linha de comando para facilitar o desenvolvimento:
+
+```bash
+# Criar um novo projeto
+tagon create nome-do-projeto [--template dark|light] [--git] [--install]
+
+# Criar uma nova página
+tagon page NomeDaPagina
+
+# Executar o servidor de desenvolvimento
+tagon run [--port PORTA]
+
+# Exibir informações sobre o Tagon
+tagon info
+```
+
 ## 🔧 Estrutura do Projeto
 
 ```
-tagon/
+meu-projeto/
 ├── src/
 │   ├── pages/
 │   │   ├── index.py
@@ -56,6 +92,17 @@ tagon/
 ## 📝 Como Usar
 
 ### Criando uma Página
+
+Você pode criar páginas de duas maneiras:
+
+#### 1. Usando o CLI (Recomendado)
+
+```bash
+# Crie uma nova página chamada MinhaPagina
+tagon page MinhaPagina
+```
+
+#### 2. Manualmente
 
 Crie um arquivo Python em `src/pages/` com uma função `main()` que retorna um dicionário contendo `html` e `css`:
 
@@ -100,7 +147,11 @@ Você pode usar essas variáveis em seu CSS para manter a consistência com o te
 
 ## 🎨 Temas
 
-O Tagon vem com um tema escuro por padrão, com animações e efeitos modernos. Você pode personalizar o tema modificando as variáveis CSS no arquivo `layout.py`.
+O Tagon vem com um tema escuro por padrão, com animações e efeitos modernos. Você pode personalizar o tema modificando as variáveis CSS no arquivo `layout.py` ou escolher o tema claro ao criar um projeto:
+
+```bash
+tagon create meu-projeto --template light
+```
 
 ## 📚 Exemplos
 
@@ -159,7 +210,7 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ## 📮 Contato
 
-Seu Nome - [@seu_twitter](https://twitter.com/seu_twitter) - contato.paulooliver9@gmail.com
+Paulo Oliveira - contato.paulooliver9@gmail.com
 
 Link do Projeto: [https://github.com/esc4n0rx/tagon](https://github.com/esc4n0rx/tagon)
 
